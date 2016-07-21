@@ -24,9 +24,9 @@ The purpose of releasing this data is to inform general public on flood risk at 
 
 ## API Definitions
 * [Address level flood risk](#address-level-flood-risk)
-* [Residential flood risk – agrregated at locality boundaries](#residential-flood-risk--agrregated-at-locality-boundaries)
-* [Residential flood risk – agrregated at local goverment area boundaries](#residential-flood-risk--agrregated-at-local-goverment-area-boundaries)
-* [Residential flood risk – agrregated at commonwealth electoral boundaries](#residential-flood-risk--agrregated-at-commonwealth-electoral-boundaries)
+* [Residential flood risk – aggregated at locality boundaries](#residential-flood-risk--agrregated-at-locality-boundaries)
+* [Residential flood risk – aggregated at local government area boundaries](#residential-flood-risk--agrregated-at-local-goverment-area-boundaries)
+* [Residential flood risk – aggregated at commonwealth electoral boundaries](#residential-flood-risk--agrregated-at-commonwealth-electoral-boundaries)
 
 
 ## Address level flood risk
@@ -106,8 +106,8 @@ The purpose of releasing this data is to inform general public on flood risk at 
                 <ul>
                     <li>Government Flood Mapping = State or local government flood mapping has been interpreted to risk assess flood risk at the site.</li>
                     <li>Other Government Flood Data = State or local government information including flood gauge data or flood levee data has been interpreted to assess flood risk at the site.</li>
-                    <li>IAG Internal Flood Model = In areas where government data is not readily available, IAG’s internal flood modelling has been used to assess flood risk at the site.</li>
-                    <li>Third Party Model = In areas where government data is not readily available, modelling by consultants has been used to assess flood risk at the site.</li>
+                    <li>IAG Internal Flood Model = In areas where government data is not readily available, IAG’s internal flood modeling has been used to assess flood risk at the site.</li>
+                    <li>Third Party Model = In areas where government data is not readily available, modeling by consultants has been used to assess flood risk at the site.</li>
                 </ul>
             </td>
         </tr>
@@ -140,7 +140,7 @@ The purpose of releasing this data is to inform general public on flood risk at 
 
 
 
-## Residential flood risk – agrregated at locality boundaries
+## Residential flood risk – aggregated at locality boundaries
 
 <table>
     <tbody>
@@ -239,7 +239,7 @@ The purpose of releasing this data is to inform general public on flood risk at 
 
 
 
-## Residential flood risk – agrregated at local goverment area boundaries
+## Residential flood risk – aggregated at local government area boundaries
 
 <table>
     <tbody>
@@ -338,7 +338,7 @@ The purpose of releasing this data is to inform general public on flood risk at 
 
 
 
-## Residential flood risk – agrregated at commonwealth electoral boundaries
+## Residential flood risk – aggregated at commonwealth electoral boundaries
 
 <table>
     <tbody>
