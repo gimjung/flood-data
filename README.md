@@ -14,7 +14,13 @@ The purpose of releasing this data is to inform general public on flood risk at 
 3. Improving risk communication and coordination between general public, related government agencies and industries.
 4. Promoting information sharing to benefit communities.
 5. Attracting new innovations in communicating and visualisation of risks
- 
+
+
+### Examples of data usage
+![Map of Australia](https://github.com/iag-edge-labs/flood-risk-api/raw/master/images/aus_201607_lga.jpg)
+![Map aerial view of suburb](https://github.com/iag-edge-labs/flood-risk-api/raw/master/images/aus_201607_sample_json.jpg)
+![Map view of council regions](https://github.com/iag-edge-labs/flood-risk-api/raw/master/images/aus_201607_tweed_shire_council.jpg)
+
 
 ## API Definitions
 * [Address level flood risk](#address-level-flood-risk)
