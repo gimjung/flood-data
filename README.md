@@ -21,6 +21,9 @@ The purpose of releasing this data is to inform general public on flood risk at 
 ![Map aerial view of suburb](https://github.com/iag-edge-labs/flood-risk-api/raw/master/images/aus_201607_sample_json.jpg)
 ![Map view of council regions](https://github.com/iag-edge-labs/flood-risk-api/raw/master/images/aus_201607_tweed_shire_council.jpg)
 
+## API path
+Experiment with our flood risk API and use the references below to find out more about the provided fields.
+http://flood-risk-api.app.skyops.io/
 
 ## API Definitions
 * [Address level flood risk](#address-level-flood-risk)
