@@ -27,9 +27,9 @@ http://flood-risk-api.app.skyops.io/
 
 ## API Definitions
 * [Address level flood risk](#address-level-flood-risk)
-* [Residential flood risk – aggregated at locality boundaries](#residential-flood-risk--agrregated-at-locality-boundaries)
-* [Residential flood risk – aggregated at local government area boundaries](#residential-flood-risk--agrregated-at-local-goverment-area-boundaries)
-* [Residential flood risk – aggregated at commonwealth electoral boundaries](#residential-flood-risk--agrregated-at-commonwealth-electoral-boundaries)
+* [Residential flood risk – aggregated at locality boundaries](#residential-flood-risk--aggregated-at-locality-boundaries)
+* [Residential flood risk – aggregated at local government area boundaries](#residential-flood-risk--aggregated-at-local-government-area-boundaries)
+* [Residential flood risk – aggregated at commonwealth electoral boundaries](#residential-flood-risk--aggregated-at-commonwealth-electoral-boundaries)
 
 
 ## Address level flood risk
