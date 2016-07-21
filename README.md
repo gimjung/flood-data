@@ -14,7 +14,13 @@ The purpose of releasing this data is to inform general public on flood risk at 
 3. Improving risk communication and coordination between general public, related government agencies and industries.
 4. Promoting information sharing to benefit communities.
 5. Attracting new innovations in communicating and visualisation of risks
+ 
 
+## API Definitions
+* [Address level flood risk](#address-level-flood-risk)
+* [Residential flood risk – agrregated at locality boundaries](#residential-flood-risk--agrregated-at-locality-boundaries)
+* [Residential flood risk – agrregated at local goverment area boundaries](#residential-flood-risk--agrregated-at-local-goverment-area-boundaries)
+* [Residential flood risk – agrregated at commonwealth electoral boundaries](#residential-flood-risk--agrregated-at-commonwealth-electoral-boundaries)
 
 
 ## Address level flood risk
