@@ -1,13 +1,15 @@
 # IAG Flood Data
 
-For years, IAG has actively collects flood hazard information from government agencies, and external providers. It also actively develops internal models in areas where flood hazard information is not exists. The collected data covers the majority of populated places in Australia. IAG has significant works to standardize the information and transform the hazard information (i.e. flood depths and extent) to flood risk information (i.e. Average Annual Damage and Flood Frequency).
+IAG are pleased to announce the release of a national dataset containing a view of flood risk across Australia. The released data is available at address and aggregated level. The address level data provides granular flood risk information and is based on the GNAF February 2016 release. IAG’s coordinates are used in areas where the IAG address database provides more appropriate information for defining primary dwelling flood risk.  The second level of released data is aggregated at admin boundaries level providing users with an overview of flood risk at a regional/national level. 
 
-The Average Annual Damage (AAD) measure the flood risk which combines the likely impacts and probabilities of all possible flood events at a given location, up to and including the Probable Maximum Flood. The Flood Frequency (FF) measure the flood average recurrence interval. Combination between AAD and FF provides answers to how much it going to cost individual property owner, and how often it is going to cost them.
+IAG, through our brand NRMA Insurance, are already leading the way in opening the Australian insurance view of risk. The Safer Homes portal (http://saferhomes.nrma.com.au) is an educational interactive web-based tool that helps customers and non-customers better understand the risk profile of the suburb they live in and the real value of their assets. Practical tips and tools are offered to users to better protect their homes. Safer Homes is the first new home insurance innovation developed with the customer in mind, and has resulted in driving cultural change within the IAG organisation.
 
-IAG has release flood risk information through Safer Home website (http://saferhomes.nrma.com.au), and would like to release the underlying data in a format that accessible for other purposes. The released data is available at address and aggregated level. The address level data provides granular flood risk information at individual address. The address information is based on GNAF February 2016 version. IAG’s coordinates are used in areas where IAG address database provide better information compare to GNAF. Thus improves the accuracy of flood risk assessment.  The second level is aggregated at admin boundaries lever. This will provides users with overview of flood in areas. 
+IAG recognises that the data behind the tool has numerous potential benefits outside of the insurance industry and this provides the impetus for opening up our data to the public.
+
+The data used for identifying the degree of flood risk is a combination of IAG modelling, industry sourced data, and local and state government data. The insurance industry is uniquely positioned in its ability to relate a physical risk into a financial risk through its exposure to claims data and the released dataset utilises these depth-damage functions to derive the risk categories supplied in the national dataset. It should be noted that the data represents a financial risk and consequently are not suitable to assess potential risk to life, public safety etc.
 
 ### Purpose
-The purpose of releasing this data is to inform general public on flood risk at their property and surrounding communities. IAG hope by releasing the data could provide a safer world by:
+In releasing the data, IAG hope to assist in informing the general public on flood risk at their property and surrounding communities. The data release ties in with IAG’s core mission of making your world a safer place by:
 
 1. Improving awareness of flood risk to property owners and communities.
 2. Promoting self mitigation, especially in areas with significant flood risks.
@@ -15,25 +17,71 @@ The purpose of releasing this data is to inform general public on flood risk at 
 4. Promoting information sharing to benefit communities.
 5. Attracting new innovations in communicating and visualisation of risks
 
-
-### Examples of data usageflood-data/images/aus_201607_lga.jpg
-![Map of Australia](https://github.com/iag-edge-labs/flood-data/blob/master/images/aus_201607_lga.jpg?raw=true)
 ![Map aerial view of suburb](https://github.com/iag-edge-labs/flood-data/blob/master/images/aus_201607_sample_json.jpg?raw=true)
+Figure 1, Sample of Address data from API service
+
 ![Map view of council regions](https://github.com/iag-edge-labs/flood-data/blob/master/images/aus_201607_tweed_shire_council.jpg?raw=true)
+Figure 2, Example of Aggregated data at LGA level
 
-## API URL and key
-Experiment with our flood risk API and use the references below to find out more about the provided fields.
-* URL: http://flood-risk-api.app.skyops.io/
-* KEY: "iag-gov-hack-api"
+### Reference Date
+July 2016
 
-Please note that by consuming the IAG Flood Data API and using this key you are agreeing to our [terms of use](https://github.com/iag-edge-labs/flood-data/blob/master/terms-of-use.md) [(download)](https://github.com/iag-edge-labs/flood-data/blob/master/terms-of-use.pdf?raw=true).
+### Responsible party
+IAG Flood Technical
+Level 10, 388 George St, Sydney NSW 2000
+iagfloodtechnical@iag.com.au
 
-## API Definitions
+### Terms and definitions
+<table>
+    <tbody>
+        <tr>
+            <td width="20%">IAG Coordinates</td>
+            <td>IAG’s coordinates are used in areas where the IAG address database provides more appropriate information for defining primary dwelling flood risk</td>
+        </tr>
+    </tbody>
+</table>
+
+### Abbreviations and acronyms 
+<table>
+    <tbody>
+        <tr>
+            <td width="20%">AAD</td>
+            <td>The Average Annual Damage (AAD) measure the flood risk which combines the likely impacts and probabilities of all possible flood events at a given location, up to and including the Probable Maximum Flood</td>
+        </tr>
+        <tr>
+            <td>FF</td>
+            <td>The Flood Frequency (FF) measure the flood average recurrence interval. Combination between AAD and FF provides answers to how much it going to cost individual property owner, and how often it is going to cost them.</td>
+        </tr>
+        <tr>
+            <td>G-NAF</td>
+            <td>Address data provided by PSMA</td>
+        </tr>
+    </tbody>
+</table>
+
+## Data Product Delivery
+IAG have a mature framework of data collection which includes direct communication with government.
+
+### Delivery Medium Information
+
+**Address level flood risk data**
+
+This is available via an API with valid key.
+
+* API URL: http://flood-risk-api.app.skyops.io
+* API KEY: "iag-gov-hack-api"
+
+**Aggregated Flood Risk Data**
+
+This is available from
+
+* https://github.com/iag-edge-labs/flood-data/data/
+
+## Appendix A – Data Dictionary
 * [Address level flood risk](#address-level-flood-risk)
 * [Residential flood risk – aggregated at locality boundaries](#residential-flood-risk--aggregated-at-locality-boundaries)
 * [Residential flood risk – aggregated at local government area boundaries](#residential-flood-risk--aggregated-at-local-government-area-boundaries)
 * [Residential flood risk – aggregated at commonwealth electoral boundaries](#residential-flood-risk--aggregated-at-commonwealth-electoral-boundaries)
-
 
 ## Address level flood risk
 
@@ -96,7 +144,7 @@ Please note that by consuming the IAG Flood Data API and using this key you are 
         <tr>
             <td>IAG_COORDINATE</td>
             <td>Integer</td>
-            <td>Flag  indicates which coordinates were used to assess the flood risk</td>
+            <td>Flag indicates which coordinates were used to assess the flood risk</td>
             <td>
                 <ul>
                     <li>1 = IAG’s coordinate was used to assess flood risk at this address.</li>
