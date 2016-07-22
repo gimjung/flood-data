@@ -16,17 +16,17 @@ The purpose of releasing this data is to inform general public on flood risk at 
 5. Attracting new innovations in communicating and visualisation of risks
 
 
-### Examples of data usage
-![Map of Australia](https://github.com/iag-edge-labs/flood-risk-api/raw/master/images/aus_201607_lga.jpg)
-![Map aerial view of suburb](https://github.com/iag-edge-labs/flood-risk-api/raw/master/images/aus_201607_sample_json.jpg)
-![Map view of council regions](https://github.com/iag-edge-labs/flood-risk-api/raw/master/images/aus_201607_tweed_shire_council.jpg)
+### Examples of data usageflood-data/images/aus_201607_lga.jpg
+![Map of Australia](flood-data/images/aus_201607_lga.jpg)
+![Map aerial view of suburb](https://github.com/iag-edge-labs/flood-data/blob/master/images/aus_201607_sample_json.jpg?raw=true)
+![Map view of council regions](https://github.com/iag-edge-labs/flood-data/blob/master/images/aus_201607_tweed_shire_council.jpg?raw=true)
 
 ## API URL and key
 Experiment with our flood risk API and use the references below to find out more about the provided fields.
 * URL: http://flood-risk-api.app.skyops.io/
 * KEY: "iag-gov-hack-api"
 
-Please note that by consuming the IAG Flood Data API and using this key you are agreeing to our [LICENCE](LICENCE.md).
+Please note that by consuming the IAG Flood Data API and using this key you are agreeing to our [terms of use](flood-data/terms-of-use.md) [(download)](flood-data/terms-of-use.pdf).
 
 ## API Definitions
 * [Address level flood risk](#address-level-flood-risk)
