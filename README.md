@@ -26,7 +26,7 @@ Experiment with our flood risk API and use the references below to find out more
 * URL: http://flood-risk-api.app.skyops.io/
 * KEY: "iag-gov-hack-api"
 
-Please note that by consuming the IAG Flood Data API and using this key you are agreeing to our [terms of use](https://github.com/iag-edge-labs/flood-data/blob/master/terms-of-use.md) [(download)](https://github.com/iag-edge-labs/flood-data/blob/master/terms-of-use.pdf).
+Please note that by consuming the IAG Flood Data API and using this key you are agreeing to our [terms of use](https://github.com/iag-edge-labs/flood-data/blob/master/terms-of-use.md) [(download)](https://github.com/iag-edge-labs/flood-data/blob/master/terms-of-use.pdf?raw=true).
 
 ## API Definitions
 * [Address level flood risk](#address-level-flood-risk)
