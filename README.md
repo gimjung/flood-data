@@ -75,7 +75,7 @@ This is available via an API with valid key.
 
 This is available from
 
-* https://github.com/iag-edge-labs/flood-data/data/
+* [Aggregated Flood Risk Data](data/)
 
 Please note that by using the IAG Flood Data you are agreeing to our [TERMS](TERMS.md).
 
