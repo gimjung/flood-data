@@ -71,13 +71,13 @@ This is available via an API with valid key.
 * API URL: http://flood-risk-api.app.skyops.io
 * API KEY: "iag-gov-hack-api"
 
-Please note that by consuming the IAG Flood Data API and using this key you are agreeing to our [LICENCE](LICENCE.md) and [TERMS](terms-of-use.md).
-
 **Aggregated Flood Risk Data**
 
 This is available from
 
 * https://github.com/iag-edge-labs/flood-data/data/
+
+Please note that by using the IAG Flood Data you are agreeing to our [LICENSE](LICENSE.md) and [TERMS](terms-of-use.md).
 
 ## Appendix A – Data Dictionary
 * [Address level flood risk](#address-level-flood-risk)
