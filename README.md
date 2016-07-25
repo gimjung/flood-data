@@ -1,6 +1,6 @@
 # IAG Flood Data
 
-IAG are pleased to announce the release of a national dataset containing a view of flood risk across Australia. The released data is available at address and aggregated level. The address level data provides granular flood risk information and is based on the GNAF February 2016 release. IAG’s coordinates are used in areas where the IAG address database provides more appropriate information for defining primary dwelling flood risk.  The second level of released data is aggregated at admin boundaries level providing users with an overview of flood risk at a regional/national level. 
+IAG are pleased to announce the release of a national dataset containing a view of flood risk across Australia. The released data is available at address and aggregated level. The address level data provides granular flood risk information and is based on the GNAF February 2016 release. IAG’s coordinates are used in areas where the IAG address database provides more appropriate information for defining primary dwelling flood risk.  The second level of released data is aggregated at admin boundaries level providing users with an overview of flood risk at a regional/national level.
 
 IAG, through our brand NRMA Insurance, are already leading the way in opening the Australian insurance view of risk. The Safer Homes portal (http://saferhomes.nrma.com.au) is an educational interactive web-based tool that helps customers and non-customers better understand the risk profile of the suburb they live in and the real value of their assets. Practical tips and tools are offered to users to better protect their homes. Safer Homes is the first new home insurance innovation developed with the customer in mind, and has resulted in driving cultural change within the IAG organisation.
 
@@ -41,7 +41,7 @@ iagfloodtechnical@iag.com.au
     </tbody>
 </table>
 
-### Abbreviations and acronyms 
+### Abbreviations and acronyms
 <table>
     <tbody>
         <tr>
@@ -77,7 +77,7 @@ This is available from
 
 * https://github.com/iag-edge-labs/flood-data/data/
 
-Please note that by using the IAG Flood Data you are agreeing to our [TERMS](terms-of-use.md).
+Please note that by using the IAG Flood Data you are agreeing to our [TERMS](TERMS.md).
 
 ## Appendix A – Data Dictionary
 * [Address level flood risk](#address-level-flood-risk)
