@@ -77,7 +77,7 @@ This is available from
 
 * https://github.com/iag-edge-labs/flood-data/data/
 
-Please note that by using the IAG Flood Data you are agreeing to our [LICENSE](LICENSE.md) and [TERMS](terms-of-use.md).
+Please note that by using the IAG Flood Data you are agreeing to our [TERMS](terms-of-use.md).
 
 ## Appendix A – Data Dictionary
 * [Address level flood risk](#address-level-flood-risk)
