@@ -103,13 +103,13 @@ Please note that by using the IAG Flood Data you are agreeing to our [TERMS](TER
         </tr>
         <tr>
             <td>LONGITUDE</td>
-            <td>Numeric(13,11)</td>
+            <td>Numeric(11,8)</td>
             <td>GNAF’s longitude</td>
             <td></td>
         </tr>
         <tr>
             <td>LATITUDE</td>
-            <td>Numeric(13,11)</td>
+            <td>Numeric(10,8)</td>
             <td>GNAF’s latitude</td>
             <td></td>
         </tr>
