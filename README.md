@@ -353,12 +353,24 @@ JSON format contains flood risk data and GIS administrative boundaries.
 
 ## Residential flood risk – aggregated at locality boundaries
 
+Note: this will not assess flood risk impact to whole community as it only aggregates residential flood risk
+
 <table>
     <tbody>
         <tr>
             <th>Field name</th>
             <th>Data type</th>
             <th>Description</th>
+        </tr>
+        <tr>
+            <td>LOC_PID</td>
+            <td>Varchar(15)</td>
+            <td>GNAF’s locality permanent identifier</td>
+        </tr>
+        <tr>
+            <td>NAME</td>
+            <td>Varchar(100)</td>
+            <td>GNAF’s locality name</td>
         </tr>
         <tr>
             <td>LOC_CODE</td>
@@ -443,7 +455,7 @@ JSON format contains flood risk data and GIS administrative boundaries.
         <tr>
             <td>SHAPE</td>
             <td>Geography</td>
-            <td></td>
+            <td>ONLY available in the JSON format data</td>
         </tr>
     </tbody>
 </table>
@@ -542,7 +554,7 @@ JSON format contains flood risk data and GIS administrative boundaries.
         <tr>
             <td>SHAPE</td>
             <td>Geography</td>
-            <td></td>
+            <td>ONLY available in the JSON format data</td>
         </tr>
     </tbody>
 </table>
@@ -641,7 +653,7 @@ JSON format contains flood risk data and GIS administrative boundaries.
         <tr>
             <td>SHAPE</td>
             <td>Geography</td>
-            <td></td>
+            <td>ONLY available in the JSON format data</td>
         </tr>
     </tbody>
 </table>
