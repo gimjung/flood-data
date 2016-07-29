@@ -168,6 +168,7 @@ Figure 2, Example of Aggregated data at LGA level
 GNAF coordinates are typically located at the centroid of the cadastral lot. The centroid is not always representative of the flood risk to a property especially when the asset sits on a large cadastral lot as illustrated on Figure 3. While the provided dataset is supplied in GNAF coordinates, it is important to note that the flood risk bands provided apply to where the major asset is located and not the GNAF point location. This shift affects approximately 2,000,000 points in total.
 
 ![Map view of GNAF coordinate](https://github.com/iag-edge-labs/flood-data/blob/master/images/IAG_vs_GNAF.jpg?raw=true)
+
 Figure 3, Example of adjustment of GNAF coordinate to better represent flood risk
 
 ### Third Party Models
